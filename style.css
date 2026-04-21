@@ -1,0 +1,16 @@
+.title{color: navy;}
+h4.author, h4.date{color: blue;}
+
+/* Standard code blocks */
+pre.r {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* R output/results blocks */
+pre:not(.r) {
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #f8f9fa; /* Optional: light gray background */
+  border: 1px solid #dee2e6;
+}
